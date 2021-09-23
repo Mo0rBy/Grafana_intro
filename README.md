@@ -53,15 +53,23 @@ On the "Welcome to Grafana page", there should be a box/widget titled "Add your 
 Next, click "Add data source". A list of data sources will be shown. Either find the data source you want to use, or use the filter at the top of the page.
 Select your chosen data source *(Cloudwatch)*, and the new page will look like this:
 
----
----
+![](./img/grafana_add_datasource_credentialsfile.PNG)
 
 The settings for the following options should be as follows **(ALL OTHER OPTIONS SHOULD BE LEFT BLANK OR AS DEFAULT)**
   - Authentication Provider > Credentials file
   - Default Region > eu-west-1
 
----
----
+![](.img/grafana_add_datasource_credentialsfile_success.PNG)
+
+### Adding a datasource [Using AWS keys]
+On the "Welcome to Grafana page", there should be a box/widget titled "Add your first data source". If this can't be seen, go to the sidebar on the left and hover over the settings/cog icon. The first option in the menu is "Data sources".
+Next, click "Add data source". A list of data sources will be shown. Either find the data source you want to use, or use the filter at the top of the page.
+Select your chosen data source *(Cloudwatch)*.
+
+![](./img/grafana_add_datasource_awskey.PNG)
+
+Input your AWS keys into the relevant sections and set your region.
 
 ### Adding a dashboard
-On the sidebar, hover over the addition symbol and select "Dashboard"
+On the sidebar, hover over the addition symbol and select "Dashboard".
+
